@@ -5,12 +5,9 @@
 
 class hello
 {
-    string message;
+    std::string message;
 public:
-    hello(string s) { 
-        message = s;
-        std::cout << message << endl;
-    }
+    hello(std::string s);
 };
 
 #endif
