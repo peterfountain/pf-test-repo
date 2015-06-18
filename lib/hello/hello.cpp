@@ -5,5 +5,5 @@
 hello::hello(std::string m)
 {
     message = m;
-    std::cout << message << '\n';
+    std::cout << "Hello " << message << '\n';
 }
