@@ -1,7 +1,7 @@
 all: test
 
 test: test.cpp
-	g++ -I../../lib/hello -L../../ -lhello test.cpp -o ../../test
+	g++  -std=c++11 -I../../lib/hello -L../../ -lhello test.cpp -o ../../test
 
 
 .PHONY: clean
