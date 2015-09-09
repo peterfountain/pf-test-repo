@@ -16,5 +16,7 @@ int main(int argv, char *argc[])
 	for (string s : strings)
 		cout << s << endl;
 
+	cout << "--- End ---\n";
+
 	return 0;
 }
