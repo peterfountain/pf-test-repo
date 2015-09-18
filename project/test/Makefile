@@ -1,11 +1,10 @@
 all: test
 
 test: test.cpp
-	g++  -std=c++11 -I../../lib/hello -L../../ -lhello test.cpp -o ../../test
-
+	g++ -g -std=c++11 -Ilib/hello -Ilib/base64 -L. -lhello -lbase64 \
+	test.cpp -o test
 
 .PHONY: clean
 
 clean:
-	rm test.o
-	rm ../../test
+	rm test
